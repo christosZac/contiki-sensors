@@ -12,7 +12,7 @@ Make sure you follow the voltage requirements and correct wiring!
 
 1. Copy ```am2315.c``` and ```am2315.h``` to your ```/dev``` directory. Default is ```$CONTIKI_HOME/platform/zoul/dev```.
 2. Edit the ```Makefile``` of your   project and add the ```am2315.c``` to the ```CONTIKI_TARGET_SOURCEFILES``` variable.
-3. Make sure the ```/dev``` directory is set (if differnet from deafult).
+3. Make sure the ```/dev``` directory is set (if differnet from default).
 
 ##example
 1. Copy the ```test-am2315.c``` to the ```$CONTIKI_HOME/examples/zolertia/zoul/``` directory.
@@ -21,7 +21,7 @@ Make sure you follow the voltage requirements and correct wiring!
 	```Makefile
 	CONTIKI_TARGET_SOURCEFILES += am2315.c
 	```
-3. Plug a zoul mote, compile and upload:
+3. Plug in a zoul mote, compile and upload:
 
 	```shell
 	make TARGET=zoul test-am2315.upload
