@@ -2,7 +2,7 @@
 
 Contiki I<sup>2</sup>C drivers for the [Zolertia zoul](https://github.com/Zolertia/Resources/wiki/The-Zoul-module) mote. 
 
-##AM2315 temperature & humidity sensor
+## AM2315 temperature & humidity sensor
 
 Datasheet and more information [here](https://www.adafruit.com/product/1293).  
 Make sure you follow the voltage requirements and correct wiring!
